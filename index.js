@@ -6,7 +6,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.start(ctx => {
     const chatId = ctx.message.chat.id,
-          message = `Hello, ${ctx.from.first_name}!`;
+          message = `Hello, ${ctx.from.first_name}.`;
 
     ctx.telegram.sendMessage(chatId, message);
 });
