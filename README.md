@@ -1,2 +1,2 @@
-# The Same Casino | Front-End (Next JS)
-Front-End part of Web App (Admin Panel)
+# The Same Casino | Back-End (Next JS)
+Back-End part of Web App (Admin Panel)
